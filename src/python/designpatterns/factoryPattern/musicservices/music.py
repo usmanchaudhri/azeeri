@@ -63,7 +63,7 @@ class LocalService:
 def create_local_music_service(local_music_location, **ignored):
     return LocalService(local_music_location)
 
-from designpatterns.FactoryPattern.musicservices import object_factory
+from designpatterns.FactoryPattern.music import object_factory
 
 class MusicServiceProvider(object_factory.ObjectFactory):
     def get(self, service_id, **kwargs):

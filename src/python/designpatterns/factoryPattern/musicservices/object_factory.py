@@ -6,7 +6,7 @@ class ObjectFactory:
         self.builder[key] = builder
 
     def create(self, key, **kwargs):
-        builder = self._builders.get(key)
+        builder = self.builders.get(key)
         if not builder:
             raise ValueError(key)
         return builder(**kwargs)

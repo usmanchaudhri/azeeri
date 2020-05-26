@@ -7,6 +7,11 @@ in the sorted order, not the kth distinct element.
 Your KthLargest class will have a constructor which accepts an integer k and an integer array nums,
 which contains initial elements from the stream. For each call to the method KthLargest.add, return
 the element representing the kth largest element in the stream.
+
+array[(i-1)/2]      - Returns the Parent node
+array[(2*i)+1]      - Returns the left child node
+array[(2*i)+2]      - Returns the right child node
+
 """
 from heapq import heapify, heappush, heappop, heappushpop
 
