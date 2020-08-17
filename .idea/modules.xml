@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/.idea/azeeri.iml" filepath="$PROJECT_DIR$/.idea/azeeri.iml" />
+      <module fileurl="file://$PROJECT_DIR$/azeeri.iml" filepath="$PROJECT_DIR$/azeeri.iml" />
     </modules>
   </component>
 </project>
