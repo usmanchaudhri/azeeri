@@ -1,4 +1,3 @@
-# topsyntax
-learn algorithms in a modern way
+## Algorithms
 
-https://topsyntax.io/
+Learning to write algorithms.
