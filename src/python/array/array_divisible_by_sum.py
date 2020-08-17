@@ -1,4 +1,5 @@
 """
+Question -
 Check if an array can be divided into pairs whose sum is divisible by k.
 Given an array of integers and a number k, write a function that returns true if given array can be divided into pairs
 such that sum of every pair is divisible by k.
@@ -20,7 +21,6 @@ Solution-1:
 Solution-2:
 
 """
-
 def divisiblePairs(array, k):
     # if length of array is odd than odd cannot be divided into pairs
     if not isEven(len(array)):
@@ -31,7 +31,6 @@ def divisiblePairs(array, k):
         rem = element % k
         remainders.append(rem)
     print(remainders)
-
 
 def isEven(num):
     return (num%2) == 0
