@@ -10,17 +10,18 @@ class Graph:
 
     def countIslands(self):
         # the main function which returns count of island
-        # in a given boolean
         visited = [[False for j in range(self.COL)] for i in range(self.ROW)]
 
         # traverse through all cells
         # of a given matrix
+        count = 0
         for i in range(self.ROW):
             for j in range(self.COL):
                 # if a cell with value 1 is not visited yet then a new island is found
                 if visited[i][j] == False and self.graph[i][j] == 1:
                     # visit all cells in this island and increment island count
-                    print('')
+                    self.DFS(i, j, visited)
+                    count +=1
 
     def DFS(self, i, j, visited):
         # check the 8 adjacent vertices

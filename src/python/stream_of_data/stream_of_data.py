@@ -10,9 +10,11 @@ If every milisecond 60 * 5 * 1000 = 360000
 
 
 def calculate_sum(array, time):
-    print()
-
+    sums = set()
+    sums.update()
 
 if __name__ == "__main__":
 
     calculate_sum()
+
+

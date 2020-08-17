@@ -1,0 +1,24 @@
+1, 19, LRUReplacementAlgo
+Set,Eryops,127707
+Set,2,1
+Set,1080,2
+Set,&c,3
+Set,10-point,4
+Set,10th,5
+Set,11-point,6
+Set,12-point,7
+Set,16-point,8
+Set,18-point,9
+Set,1st,10
+Set,20-point,13
+Set,2D,14
+Set,2nd,15
+Set,30-30,16
+Set,3D,17
+Set,3-D,18
+Set,3M,19
+Set,3rd,20
+Set,48-point,21
+Set,Eryops,127707
+Get,Eryops
+GetCount

@@ -36,6 +36,8 @@ class Graph:
             for node in self.adjacent[s]:
                 if (not visited[node]):
                     stack.append(node)
+                    print(stack)
+
 
 if __name__ == "__main__":
     g = Graph(5)

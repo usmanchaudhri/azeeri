@@ -82,7 +82,7 @@ factory.register_format('JSON', JsonSerializer)
 factory.register_format('XML', XmlSerializer)
 factory.register_format('YAML', YamlSerializer)
 
-from designpatterns.FactoryPattern.serializesong.songs import Song
+from python.designpatterns.factoryPattern.serializesong.songs import Song
 
 if __name__ == "__main__":
     song = Song('1','Teray darya ka', 'Khalil')

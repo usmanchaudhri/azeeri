@@ -2,7 +2,7 @@
 config values needed to initialize each of the different services. We now need an interface
 that will use these values to create concrete classes.
 """
-from designpatterns.FactoryPattern.musicservices import music
+from python.designpatterns.factoryPattern.musicservices import music
 
 config = {
     'spotify_client_key': 'THE_SPOTIFY_CLIENT_KEY',
