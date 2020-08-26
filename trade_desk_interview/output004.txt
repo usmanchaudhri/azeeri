@@ -1,5 +1,0 @@
-Ham
-EggsAndHam
-true
-false
-true
