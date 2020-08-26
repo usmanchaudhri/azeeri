@@ -1,5 +1,8 @@
 """
 Subset sum
+
+building a tree where one subset we will include the current element and the other side we will exclude the element.
+each successive call will than check if we have reached the given target number.
 """
 def subset_sum(nums, n, target):
 
